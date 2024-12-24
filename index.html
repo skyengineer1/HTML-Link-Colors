@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>HTML Link Colors</title>
+  <style>
+    a.link:link {
+  color: green;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a.link:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a.link:hover {
+  color: red;
+  text-decoration: underline;
+  background-color: transparent;
+}
+
+a.link:active {
+  color: yellow;
+  text-decoration: underline;
+  background-color: transparent;
+}
+
+button {
+  background-color: red;
+  color: white;
+  padding: 20px;
+  border: none;
+  width: 140px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+  </style>
+</head>
+<body>
+  <h1>Link Colors</h1>
+  <p>You can change the default colors of links</p>
+  <p><strong>Example:</strong></p>
+
+  <a class="link" href="https://www.w3schools.com/html/html_images.asp" target="_blank">HTML Images</a>
+
+  <h1>Link Button</h1>
+  <p>A link styles as a button:</p>
+  <p><strong>Example:</strong></p>
+
+  <button>
+    <a href="https://www.w3schools.com/html/default.asp" target="_blank">This is a link</a>
+  </button>
+</body>
+</html>
